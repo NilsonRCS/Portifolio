@@ -1,15 +1,30 @@
+
 h1 {font-style: italic;font-weight: 600; ; }
-p  {font-family: fantasy; font-weight: 300; }  
-body {background-color: #64a0e4;line-height: 2eem;margin-right: 100px; 
+p  {
+    text-align: center;
+    font-family: fantasy; 
+    font-weight: 300; 
+}  
+body {background-color: #93b7e0;line-height: 2eem;margin-right: 100px; 
 margin-left: 100px;margin-top: 100px;margin-bottom: 100px;}
 
 #foto {
-    width: 200px;
+    top: 50px;
+    right: 950px;
+    width: 140px;
     border-radius: 100%;
+    position: absolute;
+    padding: 2mm;
+    background-color: rgb(212, 219, 170);
 }
-#cabeçalho{
-    border-radius: 100%;
+div:nth-of-type(1){
+    font-family: cursive;
 }
-#titulo {
-    text-align: center;
+div:nth-of-type(2) {
+    margin: 50px;
+ font-family: monospace;
 }
+.lista li:nth-of-type(2n-1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: antiquewhite;
+ }
